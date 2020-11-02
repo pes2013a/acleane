@@ -27,11 +27,11 @@ class _SplashScreenState extends State<SplashScreen> {
             (route) => false);
       },
       child: Scaffold(
-        appBar: AppBar(
-          title: Text('스플래쉬'),
-        ),
+        // appBar: AppBar(
+        //   title: Text('스플래쉬'),
+        // ),
         body: Center(
-          child: Text('스플래쉬'),
+          child: Image.asset('lib/images/splash_image.png', fit: BoxFit.fill,),
         ),
       ),
     );
